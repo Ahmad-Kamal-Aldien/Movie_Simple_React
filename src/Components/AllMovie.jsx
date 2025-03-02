@@ -6,7 +6,7 @@ const AllMovie = ({movie}) => {
     <Row className="mt-3">
     {
       movie.map( (item)=>{
-        return <Card  key={Math.random} item={item}/>
+        return <Card  key={item.id} item={item}/>
       })
     }
      
